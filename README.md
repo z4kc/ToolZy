@@ -17,7 +17,7 @@ tanto do Termux quanto do GitHub.
 #Just write in terminal the next's commands lines
 #Apenas escreva no terminal os próximos comandos
 
-git clone 
+git clone https://github.com/ixzzxitado/ToolZy.git
 
 cd ToolZy
 
