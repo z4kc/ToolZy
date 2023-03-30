@@ -1,0 +1,244 @@
+#!bin/bash
+while true; do
+
+clear
+
+figlet "        Toolzy " | lolcat
+
+echo -e " \033[1;32m [!]\033[0m \033[1;33m Choose An Option!\033[0m"   
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+echo ' '
+echo -e " \033[1;33m [01]\033[0m \033[1;31m Pyhton\033[0m"      
+echo " "
+echo -e " \033[1;33m [02]\033[0m \033[1;31m Python2\033[0m"      
+echo ' '
+echo -e " \033[1;33m [03]\033[0m \033[1;31m Python3\033[0m"      
+echo ' '
+echo -e " \033[1;33m [04]\033[0m \033[1;31m Sudo\033[0m"      
+echo ' '
+echo -e " \033[1;33m [05]\033[0m \033[1;31m Php\033[0m"      
+echo ' '
+echo -e " \033[1;33m [06]\033[0m \033[1;31m Css\033[0m"     
+echo ' '
+echo -e " \033[1;33m [07]\033[0m \033[1;31m Moon-buggy\033[0m"     
+echo ' '
+echo -e " \033[1;33m [08]\033[0m \033[1;31m Ngrok\033[0m"     
+echo ' '
+echo -e " \033[1;33m [09]\033[0m \033[1;31m All Packages\033[0m"    
+echo ' '
+echo -e " \033[1;33m [e]\033[0m \033[1;31m Exit\033[0m"     
+echo ' '
+echo -e " \033[1;33m [m]\033[0m \033[1;31m Menu\033[0m"  
+echo ' '
+echo ' '
+read -p "~/ToolZy $ " yn
+
+case $yn in
+        [1] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pkg install python
+
+sleep 1
+
+echo -e " \033[1;32m Python Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+
+         [2] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+pkg install python2
+
+sleep 1
+
+echo -e " \033[1;32m Python2 Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+          [3] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pkg install python3
+
+sleep 1
+
+echo -e " \033[1;32m Python3 Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+        [4] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pip install sudo
+
+sleep 1
+
+echo -e " \033[1;32m Sudo Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+        [5] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pip install php
+
+sleep 1
+
+echo -e " \033[1;32m Php Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;; 
+         [6] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pip install css
+
+sleep 1
+
+echo -e " \033[1;32m Css Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+
+            [7] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pkg install moon-buggy
+
+sleep 1
+
+echo -e " \033[1;32m Moon-Buggy Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+          [8] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+
+pip install ngrok
+
+sleep 1
+
+echo -e " \033[1;32m Ngrok Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+                break;;
+         [9] ) echo -e "\033[1;31m Starting...\033[0m" ;
+
+sleep 3
+
+clear
+
+sleep 1
+
+echo -e " \033[1;32m Installing All Packages.\033[0m"
+
+sleep 2
+
+clear
+
+sleep 2
+
+pkg update
+
+pkg upgrade
+
+pkg install python
+
+pkg install python2
+
+pkg install python3
+
+pip install sudo
+
+pip install php
+
+pip install css
+
+pkg install moon-buggy
+
+pip install ngrok
+
+echo -e " \033[1;34m All Packages Installed!\033[0m"
+
+sleep 2
+
+clear
+
+bash DONTELL
+
+
+
+                break;;
+
+
+
+        [mM] ) echo -e "\033[1;31m Going to Menu...\033[0m" ;
+sleep 2
+
+clear
+          sleep 2
+
+bash requests
+                break;;
+          [eE] ) echo -e " \033[1;32m Exiting...\033[0m"  ;
+                exit;;
+        * ) echo -e " \033[1;33m [!]\033[0m \033[5;30m Invalid Option \033[0m"
+esac
+
+sleep 3
+
+clear
+
+done
