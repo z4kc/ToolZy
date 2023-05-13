@@ -227,6 +227,7 @@ mv IP-Tracer /data/data/com.termux/files/home
 
 mv Ip-Attack /data/data/com.termux/files/home
 
+mv Anon-SMS /data/data/com.termux/files/home
 echo -e " \033[1;32m All Packages Installed!\033[0m"
 
 sleep 2
