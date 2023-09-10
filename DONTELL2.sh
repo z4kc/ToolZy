@@ -211,7 +211,19 @@ git clone https://github.com/rajkumardusad/IP-Tracer
 
 git clone https://github.com/Bhai4You/Ip-Attack
 
+git clone https://github.com/T-Dynamos/BaapG-Attack
+
+git clone https://github.com/ixzzxitado/CalculatorX
+
+git clone https://github.com/ixzzxitado/GooglleT
+
 sleep 1
+
+mv GooglleT /data/data/com.termux/files/home
+
+mv CalculatorX /data/data/com.termux/files/home
+
+mv BaapG-Attack /data/data/com.termux/files/home
 
 mv zphisher /data/data/com.termux/files/home
 
